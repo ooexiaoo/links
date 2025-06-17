@@ -36,3 +36,11 @@
   "include": ["src", "src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
+{
+  "exclude": [
+    "**/*.backup.tsx",
+    "**/*.backup.ts",
+    "src/**/*backup*",
+    "src/pages/**/*Page.backup.tsx"
+  ]
+}
